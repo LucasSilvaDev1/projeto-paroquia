@@ -1,0 +1,732 @@
+
+
+:root {
+    --cor-1: #210702;
+    --cor-2: #440E00;
+    --cor-3: #682107;
+    --cor-4: #8E3d1B;
+    --cor-5: #c76533;
+    --cor-6: #feceb1;
+    --cor-7: #fae2bb;
+    --cor-8: #ffefd6;
+    
+} 
+/*
+
+
+tamanho de telas
+1 desktop = 940px ou mais]
+2 tela maior que tablet = 940px ou menos
+
+e*/
+
+@media (max-width: 1200px), (min-width: 881px) {
+
+    /* introducao */
+    .img-introducao {
+        width: 780px;
+        height: 240px;
+    }
+    .img-introducao h1 {
+        font-size: 30px;
+        width: 235px;
+    }
+
+    /* historia da paroquia */
+
+    .titulo-h-p h2 {
+        font-size: 55px;
+    }
+    .historia-pa img {
+    width: 240px;
+    height: 300px;
+    }
+    .texto-h-p {
+        height: 300px;
+        font-size: 19px;
+    }
+
+    /* historia de santo onofre */
+
+    .titulo-sa h2 {
+        font-size: 55px;
+    }
+    .conteudo-sa img{
+        width: 240px;
+        height: 300px; 
+    }
+    .texto-sa {
+        height: 300px;
+        font-size: 19px;
+    }
+
+    /* nossas capelas */
+
+    .titulo-cap h2{
+        font-size: 55px;
+    }
+
+    /* diocese */
+
+    .titulo-diocese h2{
+        font-size: 55px;
+    }
+    .conteudo-diocese img {
+        width: 780px;
+        height: 240px; 
+    }
+
+}
+
+
+@media (max-width: 880px),(min-width: 721px){
+    /* header */
+    header {
+        margin-top: 60px;
+    }
+    nav {
+        height: 60px;
+    }
+    .logotipo {
+        margin-left: 50px;
+    }
+    .img-menu-icon{
+        height: 40px;
+    }
+    .texto-menu-icon{
+        height: 35px
+    }
+    .navegacao a{
+        font-size: 16px;
+    }
+    .navegacao a > img{
+        height: 24px;
+        margin-right: 0px;
+    }
+
+    /* introducao */
+    .introducao-site{
+        height:324px;
+    }
+    .img-introducao {
+        width: 650px;
+        height: 200px;
+    }
+    .img-introducao h1 {
+        font-size: 24px;
+        width: 200px;
+    }
+
+    /* historia da paroquia */
+    .titulo-h-p h2 {
+        font-size: 34px;
+    }    
+    .historia-pa img {
+        width: 200px;
+        height: 250px;
+    }
+    .texto-h-p {
+        height: 250px;
+        font-size: 14px;
+        width: 400px;
+    }
+    .btn-ler-mais {
+        font-size: 20px;
+        margin-top: 14px;
+    }
+
+    /* historia de santo onofre */
+    .titulo-sa h2 {
+        font-size: 34px;
+    }
+    .conteudo-sa img{
+        width: 200px;
+        height: 250px; 
+    }
+    .texto-sa {
+        height: 250px;
+        font-size: 14px;
+        width: 400px;
+    }
+    .texto-sa a {
+        margin-top: 34px;
+    }
+
+    /* nossas capelas */
+    .titulo-cap h2{
+        font-size: 34px;
+    }
+    .cap-s-a {
+        margin:0;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    .cap-s-t {
+        margin:0;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    .cap-s-a h2 {
+        margin:0 0 14px 0;
+        font-size: 24px;
+    }
+    .cap-s-t h2 {
+        margin:0 0 14px 0;
+        font-size: 24px;
+    }
+    .cap-s-a img {
+        margin:0;
+        width: 200px;
+        height: 250px; 
+    }
+    .cap-s-t img {
+        margin:0;
+        width: 200px;
+        height: 250px; 
+    }
+    .leia-capela{
+        margin:4px 0 0 0;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    /* paroco */
+    .titulo-paroco h2 {
+        font-size: 34px;
+    }
+    .texto-paroco {
+        width:280px;
+        height: 280px;
+    }
+    .texto-paroco h3{
+        font-size:18px;
+        line-height: 1;
+    }
+    .texto-paroco p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .img-paroco img{
+        width: 280px;
+    }
+
+    /* diocese */
+    .titulo-diocese h2{
+        font-size: 34px;
+    }
+    .conteudo-diocese img {
+        width: 650px;
+        height: 200px; 
+    }
+    .conteudo-diocese a {
+        font-size: 14px;
+    }
+
+    /* footer */
+        footer {
+            height: 200px;
+            padding: 20px 0 0;
+        }
+        .img-logo img{
+            width:60px;
+        }
+        .img-texto-logo img{
+            width:120px;
+        }
+        .localizacao {
+            font-size: 10px;
+            height: 130px;
+            width: 190px;
+        }
+        .redes-sociais a > img{
+            width: 20px;
+        }
+        .separador-2{
+            height:130px;
+        }
+        .contato {
+            height: 130px;
+            font-size: 10px;
+            width:90px;
+        }
+        .sites-indicados {
+            height: 130px;
+            font-size: 10px;
+            width: 120px;
+
+        }
+        .icons-sites img {
+            width: 42px;
+            margin: 2 2px;
+        }
+}
+
+@media (max-width: 720px), (min-width: 491px){
+
+    /* header */
+    .logotipo {
+        margin-left: 40px;
+    }
+    .img-menu-icon{
+        height: 35px;
+        width: 35px;
+    }
+    .texto-menu-icon{
+        height: 30px
+    }
+    .navegacao {
+        margin: 0 35px
+    }
+    .navegacao a{
+        font-size: 14px;
+        margin: 0 0 0 20px
+    }
+
+    /* introducao */
+    .introducao-site{
+        height: 230px;
+    }
+    .img-introducao {
+        width: 440px;
+        height: 140px;
+    }
+    .img-introducao h1 {
+        font-size: 18px;
+        width: 140px;
+    }
+    .imgbackground {
+        width: 350px;
+        height: 230px;
+    }
+
+    /* historia da paroquia */
+    .titulo-h-p h2 {
+        font-size: 30px;
+    }
+    .historia-pa img {
+        width: 180px;
+        height: 200px;
+    }
+    .texto-h-p {
+        height: 200px;
+        font-size: 11px;
+        width: 250px;
+    }
+    .texto-h-p p {
+        margin:8px 6px;
+    }
+    .btn-ler-mais {
+        font-size: 14px;
+        margin-top: 0px;
+        height: 25px;
+        align-items: start;
+        margin-left: 6px;
+    }
+
+    /* historia de santro onofre */
+
+    .titulo-sa h2 {
+        font-size: 30px;
+    }
+    .conteudo-sa img{
+        width: 180px;
+        height: 200px; 
+    }
+    .texto-sa {
+        height: 200px;
+        font-size: 11px;
+        width: 250px;
+    }
+    .texto-sa a {
+      margin-top: 8px;
+    }
+
+    /* nossas capelas */
+    .titulo-cap h2{
+        font-size: 30px;
+    }
+    
+    .cap-s-a {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin:0 20px;  
+    }
+    .cap-s-t {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin:0 20px;
+    }
+    .cap-s-a h2 {
+        width: 180px;
+        margin:0 0 8px 0;
+        font-size: 18px;
+    }
+    .cap-s-t h2 {
+        width: 180px;
+        margin:0 0 8px 0;
+        font-size: 18px;
+    }
+    .cap-s-a img {
+        margin:0;
+        width: 180px;
+        height: 200px; 
+    }
+    .cap-s-t img {
+        width: 180px;
+        height: 200px; 
+    }
+    .leia-capela{
+        margin:4px 0 0;
+        width: 180px;
+        font-size: 14px;
+        height: 25px;
+    }
+
+    /* paroco */
+    .paroco {
+        margin-bottom: 50px;
+    }
+    .titulo-paroco h2 {
+        font-size: 30px;
+    }
+    .texto-paroco {
+        width: 220px;
+        height: 220px;
+    }
+    .texto-paroco h3{
+        font-size:14px;
+        line-height: 1;
+    }
+    .texto-paroco p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    .texto-paroco a {
+        font-size: 10px;
+    }
+    .img-paroco img{
+        width: 220px;
+    }
+
+    /* diocese */
+    .diocese {
+        margin-bottom: 50px;
+    }
+    .titulo-diocese h2{
+        font-size: 30px;
+    }
+    .conteudo-diocese img {
+        width: 450px;
+        height: 140px; 
+    }
+    .conteudo-diocese a {
+        font-size: 12px;
+    }
+
+    /* footer */
+    footer {
+        height: 150px;
+        padding: 10px 0 0;
+    }
+    .logo-rodape{
+        padding:10px 5px;
+    }
+    .img-logo img{
+        width:45px;
+    }
+    .img-texto-logo img{
+        width:90px;
+    }
+    .localizacao {
+        font-size: 8px;
+        height: 100px;
+        width: 120px;
+    }
+    .separador-2{
+        height:100px;
+        margin: 0 10px;
+    }
+    .contato {
+        margin: 0;
+        height: 100px;
+        font-size: 8px;
+        width:70px;
+    }
+    .sites-indicados {
+        height: 100px;
+        font-size: 8px;
+        width: 90px;
+        margin: 0;
+    }
+    .icons-sites {
+        margin: 0;
+        text-align: left;
+    }
+    .icons-sites img {
+        width: 30px;
+        margin: 2px;
+        border: 2px solid var(--cor-4);
+    }
+    .copy {
+        height: auto;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 490px), (min-width: 300px){
+   .separador{
+    height: 2px;
+    width: 70%;
+   }
+    /* header */
+    header {
+        margin-top: 50px;
+    }
+    nav {
+        height: 50px;
+    }
+    .logotipo {
+        margin-left: 15px;
+    }
+    .img-menu-icon{
+        height: 25px;
+        width: 25px;
+    }
+    .texto-menu-icon{
+        height: 20px
+    }
+    .navegacao {
+        margin: 0 15px
+    }
+    .navegacao a{
+        font-size: 10px;
+        margin: 0 0 0 10px;
+    }
+    .navegacao a > img{
+        width: 20px;
+        height: 20px;
+        margin-right: 2px;
+    }
+
+    /* introducao */
+    .introducao-site{
+        height: 150px;
+        margin-top: 20px;
+    }
+    .img-introducao {
+        width: 250px;
+        height: 80px;
+    }
+    .img-introducao h1 {
+        font-size: 10px;
+        width: 78px;
+        margin-right: 12px;
+    }
+    .imgbackground {
+        width: 210px;
+        height: 150px;
+        background-size: 120%;
+    }
+
+    /* historia da paroquia */
+    .titulo-h-p h2 {
+        font-size: 18px;
+    }
+    .historia-pa img {
+        width: 100px;
+        height: 115px;
+        margin-right: 10px;
+    }
+    .texto-h-p {
+        height: 115px;
+        font-size: 6.5px;
+        width: 165px;
+        text-align: justify;
+    }
+    .btn-ler-mais {
+        font-size: 8px;
+        margin-top: 0px;
+        height: 20px;
+        align-items: start;
+        margin-left: 6px;
+    }
+
+    /* historia de santo onofre */
+    .titulo-sa h2 {
+        font-size: 18px;
+    }
+    .conteudo-sa img{
+        width: 100px;
+        height: 115px;
+        margin-right: 10px; 
+    }
+    .texto-sa {
+        height: 115px;
+        font-size: 6.5px;
+        width: 165px;
+        text-align: justify;
+    }
+    .texto-sa p {
+        margin: 8px 6px;
+    }
+    .texto-sa a {
+        font-size: 8px;
+        margin-top: 7px;
+    }
+
+    /* nossas capelas */
+    .conteudo-cap {
+        margin-bottom: 32px;
+    }
+    .titulo-cap h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .cap-s-a {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin:0 10px;  
+    }
+    .cap-s-t {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin:0 10px;
+    }
+    .cap-s-a h2 {
+        width: 100px;
+        margin:0 0 8px 0;
+        font-size: 12px;
+    }
+    .cap-s-t h2 {
+        width: 100px;
+        margin:0 0 8px 0;
+        font-size: 12px;
+    }
+    .cap-s-a img {
+        margin:0;
+        width: 100px;
+        height: 115px; 
+    }
+    .cap-s-t img {
+        width: 100px;
+        height: 115px; 
+    }
+    .leia-capela{
+        margin:4px 0 0;
+        width: 100px;
+        font-size: 8px;
+        height: 20px;
+    }
+
+    /* paroco */
+    .paroco {
+        margin-bottom: 30px;
+    }
+    .titulo-paroco h2 {
+        font-size: 18px;
+    }
+    .texto-paroco {
+        width: 120px;
+        height: 120px;
+        margin: 0 10px;
+    }
+    .texto-paroco h3{
+        font-size:8px;
+        line-height: 1;
+    }
+    .texto-paroco p {
+        font-size: 6.5px;
+        line-height: 1.3;
+        margin:0;
+    }
+    .texto-paroco a {
+        font-size: 6px;
+        margin-top: 0px;
+    }
+    .img-paroco img{
+        width: 120px;
+    }
+    
+    /* diocese */
+    .diocese {
+        margin-bottom: 32px;
+    }
+    .titulo-diocese h2{
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+    .conteudo-diocese a {
+        font-size: 8px;
+    }
+    .conteudo-diocese img {
+        width: 250px;
+        height: 80px; 
+    }
+
+    /* footer */
+    footer {
+        height: 100px;
+        padding: 10px 0 0;
+    }
+    .logo-rodape{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding:10px 5px;
+    }
+    .img-logo img{
+        width:25px;
+    }
+    .img-texto-logo img{
+        width:60px;
+    }
+    .localizacao {
+        font-size: 6px;
+        height: 70px;
+        width: 105px;
+    }
+    .redes-sociais a > img {
+        width: 15px;
+    }
+    .separador-2{
+        height:70px;
+        width: 1px;
+        margin: 0 8px;
+    }
+    .contato {
+        margin: 0;
+        height: 70px;
+        font-size: 6px;
+        width:55px;
+    }
+    .sites-indicados {
+        height: 70px;
+        font-size: 6px;
+        width: 75px;
+    }
+    .sites-indicados p {
+        margin: 0;
+    }
+    .icons-sites img {
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        margin: 2px;
+    }
+
+    .copy {
+        height: auto;
+        font-size: 6px;
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+}
