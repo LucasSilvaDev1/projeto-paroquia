@@ -20,7 +20,7 @@ tamanho de telas
 
 e*/
 
-@media (max-width: 1200px), (min-width: 881px) {
+@media (max-width: 1200px){
 
     /* introducao */
     .img-introducao {
@@ -79,7 +79,7 @@ e*/
 }
 
 
-@media (max-width: 880px),(min-width: 721px){
+@media (max-width: 880px){
     /* header */
     header {
         margin-top: 60px;
@@ -263,7 +263,7 @@ e*/
         }
 }
 
-@media (max-width: 720px), (min-width: 491px){
+@media (max-width: 720px){
 
     /* header */
     .logotipo {
@@ -479,7 +479,7 @@ e*/
     }
 }
 
-@media (max-width: 490px), (min-width: 300px){
+@media (max-width: 490px){
    .separador{
     height: 2px;
     width: 70%;
