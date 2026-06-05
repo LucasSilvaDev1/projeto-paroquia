@@ -81,9 +81,6 @@ e*/
 
 @media (max-width: 880px){
     /* header */
-    header {
-        margin-top: 60px;
-    }
     nav {
         height: 60px;
     }
@@ -105,6 +102,9 @@ e*/
     }
 
     /* introducao */
+    .imgbackground{
+        height: 324px;
+    }
     .introducao-site{
         height:324px;
     }
@@ -485,9 +485,7 @@ e*/
     width: 70%;
    }
     /* header */
-    header {
-        margin-top: 50px;
-    }
+
     nav {
         height: 50px;
     }
@@ -517,7 +515,6 @@ e*/
     /* introducao */
     .introducao-site{
         height: 150px;
-        margin-top: 20px;
     }
     .img-introducao {
         width: 250px;

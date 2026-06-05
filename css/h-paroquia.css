@@ -1,0 +1,67 @@
+
+
+/* fontes
+
+    'Noto Serif Display'
+    'roboto'
+
+*/
+
+:root {
+    --cor-1: #210702;
+    --cor-2: #440E00;
+    --cor-3: #682107;
+    --cor-4: #8E3d1B;
+    --cor-5: #c76533;
+    --cor-6: #feceb1;
+    --cor-7: #fae2bb;
+    --cor-8: #ffefd6;
+    
+}
+
+/* corpo de texto da historia da paroquia */
+
+.conteudo-h-paroquia{
+    background-color: var(--cor-2);
+    padding: 32px 0px 48px 0px;
+}
+.conteudo-h-paroquia h1 {
+    text-align: center;
+    margin: 0px 0px 32px 0px;
+    color: var(--cor-6);
+    font-family: 'Noto Serif Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+}
+.corpo-texto{
+    background-color: var(--cor-7);
+    height: auto;
+    width: 70vw;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.295);
+    
+}
+.corpo-texto img{
+    float: left;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    width: 150px;
+    height: 160px;
+}
+.corpo-texto p {
+    color: var(--cor-1);
+    font-family: 'roboto', sans-serif;
+    text-align: justify;
+    line-height: 24px;
+    margin: 0;
+    text-indent: 1em;
+}
+
+/* restante do site */
+.outras-historias{
+    background-image:linear-gradient(to bottom, #EEEEE4,#A18F7D);
+    padding-top: 16px;
+}

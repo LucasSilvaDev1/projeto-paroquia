@@ -26,7 +26,6 @@ header {
     width: 100%;
     height: auto;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.355);
-    margin-top: 80px;
 }
 nav {
     background-color: var(--cor-1);
@@ -36,9 +35,6 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-self: center;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
 }
 
 .logotipo {
