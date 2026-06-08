@@ -23,16 +23,16 @@
 
 .conteudo-h-paroquia{
     background-color: var(--cor-2);
-    padding: 32px 0px 48px 0px;
+    padding: 40px 0px 80px 0px;
 }
 .conteudo-h-paroquia h1 {
     text-align: center;
-    margin: 0px 0px 32px 0px;
+    margin: 0px 0px 40px 0px;
     color: var(--cor-6);
     font-family: 'Noto Serif Display', serif;
     font-style: italic;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 60px;
 }
 .corpo-texto{
     background-color: var(--cor-7);
@@ -48,14 +48,16 @@
     float: left;
     margin-right: 12px;
     margin-bottom: 0px;
-    width: 150px;
-    height: 160px;
+    width: 240px;
+    height: 260px;
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.228);
 }
 .corpo-texto p {
     color: var(--cor-1);
     font-family: 'roboto', sans-serif;
     text-align: justify;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 32px;
     margin: 0;
     text-indent: 1em;
 }

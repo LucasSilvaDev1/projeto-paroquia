@@ -22,6 +22,26 @@ e*/
 
 @media (max-width: 1200px){
 
+    /* header */
+
+    nav {
+        height: 100px;
+    }
+    .img-menu-icon{
+        width: 60px;
+        height: 60px;
+    }
+    .texto-menu-icon{
+        height: 50px;
+    }
+    .navegacao a {
+        font-size: 18px;
+    }
+    .navegacao a > img {
+        height: 36px;
+        margin-right: 0px;
+    }
+
     /* introducao */
     .img-introducao {
         width: 780px;
@@ -65,6 +85,19 @@ e*/
     .titulo-cap h2{
         font-size: 55px;
     }
+    .cap-s-a h2, .cap-s-t h2 {
+        width: 240px;
+        font-size: 32px;
+    }
+    .cap-s-a img, .cap-s-t img {
+        width: 240px;
+        height: 300px;
+    }
+    .leia-capela{
+        width: 240px;
+        font-size: 22px;
+    }
+
 
     /* diocese */
 
@@ -76,6 +109,52 @@ e*/
         height: 240px; 
     }
 
+     footer {
+            height: 300px;
+            padding: 16px 0 0 0;
+        }
+        .logo-rodape{
+            height: 200px;
+            width: 200px;
+            padding: 0;
+        }
+        .img-logo img{
+            width:120px;
+        }
+        .img-texto-logo img{
+            width:180px;
+        }
+        .localizacao {
+            font-size: 16px;
+            height: 200px;
+            width: 250px;
+        }
+    
+        .redes-sociais a > img{
+            width: 40px;
+        }
+        .separador-2{
+            height:200px;
+        }
+        .contato {
+            height: 200px;
+            font-size: 16px;
+            width:130px;
+        }
+        .sites-indicados {
+            height: 200px;
+            font-size: 16px;
+            width: 160px;
+
+        }
+        .icons-sites img {
+            width: 60px;
+            margin: 8px 8px;
+        }
+        .copy{
+            font-size: 18px;
+            margin-top: 0px;
+        }
 }
 
 
@@ -119,7 +198,7 @@ e*/
 
     /* historia da paroquia */
     .titulo-h-p h2 {
-        font-size: 34px;
+        font-size: 40px;
     }    
     .historia-pa img {
         width: 200px;
@@ -127,17 +206,19 @@ e*/
     }
     .texto-h-p {
         height: 250px;
-        font-size: 14px;
+        font-size: 16px;
         width: 400px;
+        text-align: justify;
     }
     .btn-ler-mais {
         font-size: 20px;
-        margin-top: 14px;
+        margin-top: 0px;
+       height: 28px;
     }
 
     /* historia de santo onofre */
     .titulo-sa h2 {
-        font-size: 34px;
+        font-size: 40px;
     }
     .conteudo-sa img{
         width: 200px;
@@ -145,43 +226,30 @@ e*/
     }
     .texto-sa {
         height: 250px;
-        font-size: 14px;
+        font-size: 16px;
         width: 400px;
+        text-align: justify;
     }
     .texto-sa a {
-        margin-top: 34px;
+        margin-top: 0px;
+        height: auto;
     }
 
     /* nossas capelas */
     .titulo-cap h2{
         font-size: 34px;
     }
-    .cap-s-a {
+    .cap-s-a, .cap-s-t {
         margin:0;
         display: flex;
         justify-items: center;
         align-items: center;
     }
-    .cap-s-t {
-        margin:0;
-        display: flex;
-        justify-items: center;
-        align-items: center;
-    }
-    .cap-s-a h2 {
+    .cap-s-a h2, .cap-s-t h2 {
         margin:0 0 14px 0;
         font-size: 24px;
     }
-    .cap-s-t h2 {
-        margin:0 0 14px 0;
-        font-size: 24px;
-    }
-    .cap-s-a img {
-        margin:0;
-        width: 200px;
-        height: 250px; 
-    }
-    .cap-s-t img {
+    .cap-s-a img, .cap-s-t img {
         margin:0;
         width: 200px;
         height: 250px; 
@@ -226,40 +294,49 @@ e*/
 
     /* footer */
         footer {
-            height: 200px;
+            height: 250px;
             padding: 20px 0 0;
         }
+        .logo-rodape{
+            height: 150px;
+            width: 160px;
+            padding: 0;
+        }
         .img-logo img{
-            width:60px;
+            width:80px;
         }
         .img-texto-logo img{
-            width:120px;
+            width:140px;
         }
         .localizacao {
-            font-size: 10px;
-            height: 130px;
+            font-size: 12px;
+            height: 150px;
             width: 190px;
         }
         .redes-sociais a > img{
-            width: 20px;
+            width: 30px;
         }
         .separador-2{
-            height:130px;
+            height:150px;
         }
         .contato {
-            height: 130px;
-            font-size: 10px;
+            height: 150px;
+            font-size: 12px;
             width:90px;
         }
         .sites-indicados {
-            height: 130px;
-            font-size: 10px;
+            height: 150px;
+            font-size: 12px;
             width: 120px;
 
         }
         .icons-sites img {
             width: 42px;
             margin: 2 2px;
+        }
+        .copy{
+            font-size: 14px;
+            margin-top: 0;
         }
 }
 
@@ -433,43 +510,46 @@ e*/
         padding: 10px 0 0;
     }
     .logo-rodape{
-        padding:10px 5px;
+        padding:0;
+        height: 125px;
+        width: 130px;
     }
     .img-logo img{
-        width:45px;
+        width:55px;
     }
     .img-texto-logo img{
-        width:90px;
+        width:110px;
     }
     .localizacao {
-        font-size: 8px;
-        height: 100px;
-        width: 120px;
+        margin-left: 6px;
+        font-size: 9px;
+        height: 125px;
+        width: 145px;
     }
     .separador-2{
-        height:100px;
-        margin: 0 10px;
+        height:125px;
+        margin: 0 6px;
     }
     .contato {
         margin: 0;
-        height: 100px;
-        font-size: 8px;
-        width:70px;
+        height: 125px;
+        font-size: 9px;
+        width:80px;
     }
     .sites-indicados {
-        height: 100px;
-        font-size: 8px;
+        height: 125px;
+        font-size: 9px;
         width: 90px;
         margin: 0;
     }
     .icons-sites {
         margin: 0;
-        text-align: left;
+        text-align: center;
     }
     .icons-sites img {
-        width: 30px;
-        margin: 2px;
-        border: 2px solid var(--cor-4);
+        width: 40px;
+        margin: 1px;
+        
     }
     .copy {
         height: auto;
@@ -487,23 +567,24 @@ e*/
     /* header */
 
     nav {
-        height: 50px;
+        height: 60px;
     }
     .logotipo {
         margin-left: 15px;
     }
     .img-menu-icon{
-        height: 25px;
-        width: 25px;
+        height: 35px;
+        width: 35px;
     }
     .texto-menu-icon{
-        height: 20px
+        height: 25px;
+        margin-left: 4px;
     }
     .navegacao {
         margin: 0 15px
     }
     .navegacao a{
-        font-size: 10px;
+        font-size: 11px;
         margin: 0 0 0 10px;
     }
     .navegacao a > img{
@@ -514,20 +595,28 @@ e*/
 
     /* introducao */
     .introducao-site{
-        height: 150px;
+        height: 190px;
     }
     .img-introducao {
-        width: 250px;
-        height: 80px;
+        width: 80%;
+        height: 140px;
+        background-size: cover;
+        background-position: left;
     }
     .img-introducao h1 {
-        font-size: 10px;
-        width: 78px;
-        margin-right: 12px;
+        font-size: 12px;
+        width: 98px;
+        margin-right: 10px;
+        margin-bottom: 12px;
+        background-color: #21070259;
+        padding: 4px 6px;
+        border-radius: 5px;
+        display: flex;
+        align-self: end;
     }
     .imgbackground {
         width: 210px;
-        height: 150px;
+        height: 190px;
         background-size: 120%;
     }
 
@@ -661,69 +750,98 @@ e*/
         margin-bottom: 32px;
     }
     .conteudo-diocese a {
-        font-size: 8px;
+        font-size: 10px;
+        margin-top: 100px;
+        background-color: #21070259;
+        padding: 4px 6px;
+        border-radius: 5px;
     }
     .conteudo-diocese img {
-        width: 250px;
-        height: 80px; 
+        display: none;
+    }
+    .conteudo-diocese{
+        width: 80%;
+        height: 140px; 
+        background-size: cover;
+        background-position: left;
+        background-image: url(../img/img-diocese.jpg);
     }
 
     /* footer */
     footer {
-        height: 100px;
+        height: 245px;
         padding: 10px 0 0;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
     .logo-rodape{
-        display: none;
+        display: flex;
         align-items: center;
         justify-content: center;
-        padding:10px 5px;
+        padding:0px;
+        width: 120px;
+        height: 100px;
     }
     .img-logo img{
-        width:25px;
+        width:45px;
     }
     .img-texto-logo img{
-        width:60px;
+        width:100px;
     }
     .localizacao {
-        font-size: 6px;
-        height: 70px;
-        width: 105px;
+        font-size: 8px;
+        height: 100px;
+        width: 140px;
     }
     .redes-sociais a > img {
-        width: 15px;
+        width: 25px;
     }
     .separador-2{
-        height:70px;
-        width: 1px;
-        margin: 0 8px;
+        display: none;
     }
     .contato {
-        margin: 0;
-        height: 70px;
-        font-size: 6px;
-        width:55px;
+        justify-content: center;
+        margin-left: 70px;
+        height: 100px;
+        font-size: 8px;
+        width:120px;
+
     }
     .sites-indicados {
-        height: 70px;
-        font-size: 6px;
-        width: 75px;
+        justify-content: center;
+        align-content: center;
+        height: 100px;
+        font-size: 8px;
+        width: 140px;
     }
     .sites-indicados p {
-        margin: 0;
+        margin: 10px 0px;
+        align-self: center;
+    }
+    .icons-sites {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90px;
+        align-self: center;
     }
     .icons-sites img {
         align-items: center;
         justify-content: center;
-        width: 20px;
+        width: 30px;
         margin: 2px;
     }
 
     .copy {
         height: auto;
-        font-size: 6px;
-        padding: 5px;
-        margin-top: 5px;
+        width: auto;
+        font-size: 10px;
+        padding: 5px 15px;
+        margin-top: 15px;
+        display: grid;
+        grid-column: 1/3;
     }
 
 }
