@@ -506,7 +506,7 @@ e*/
 
     /* footer */
     footer {
-        height: 150px;
+        height: 160px;
         padding: 10px 0 0;
     }
     .logo-rodape{
@@ -573,11 +573,11 @@ e*/
         margin-left: 15px;
     }
     .img-menu-icon{
-        height: 35px;
-        width: 35px;
+        height: 10vw;
+        width: 10vw;
     }
     .texto-menu-icon{
-        height: 25px;
+        height: 6vw;
         margin-left: 4px;
     }
     .navegacao {
@@ -627,42 +627,50 @@ e*/
     .historia-pa img {
         width: 100px;
         height: 115px;
-        margin-right: 10px;
+        margin: 0px 10px;
+        display: flex;
     }
     .texto-h-p {
-        height: 115px;
-        font-size: 6.5px;
-        width: 165px;
+        height: auto;
+        font-size: 12px;
+        width: 60%;
         text-align: justify;
+        margin-right: 10px;
+        box-shadow: -0px 3px 10px rgba(0, 0, 0, 0.201);
     }
     .btn-ler-mais {
-        font-size: 8px;
-        margin-top: 0px;
+        font-size: 3vw;
+        margin-top: 6px;
         height: 20px;
-        align-items: start;
         margin-left: 6px;
+        align-items: center;
+        justify-items: center;
     }
 
     /* historia de santo onofre */
     .titulo-sa h2 {
         font-size: 18px;
     }
+    .conteudo-sa {
+        display: flex;
+        align-items: start;
+    }
     .conteudo-sa img{
         width: 100px;
         height: 115px;
-        margin-right: 10px; 
+        margin: 0px 10px; 
     }
     .texto-sa {
-        height: 115px;
-        font-size: 6.5px;
-        width: 165px;
+        height: auto;
+        font-size: 12px;
+        width: 60%;
+        margin-right: 10px;
         text-align: justify;
     }
     .texto-sa p {
         margin: 8px 6px;
     }
     .texto-sa a {
-        font-size: 8px;
         margin-top: 7px;
     }
 
@@ -769,13 +777,16 @@ e*/
 
     /* footer */
     footer {
-        height: 245px;
+        height: auto;
         padding: 10px 0 0;
         display: grid;
         justify-items: center;
         align-items: center;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    footer > div{
+        margin-bottom: 32px;
     }
     .logo-rodape{
         display: flex;
@@ -804,17 +815,17 @@ e*/
     }
     .contato {
         justify-content: center;
-        margin-left: 70px;
+        align-items: center;
         height: 100px;
-        font-size: 8px;
+        font-size: 10px;
         width:120px;
 
     }
     .sites-indicados {
         justify-content: center;
         align-content: center;
-        height: 100px;
-        font-size: 8px;
+        height: 120px;
+        font-size: 10px;
         width: 140px;
     }
     .sites-indicados p {
@@ -830,18 +841,19 @@ e*/
     .icons-sites img {
         align-items: center;
         justify-content: center;
-        width: 30px;
+        width: 40px;
         margin: 2px;
     }
 
     .copy {
         height: auto;
         width: auto;
-        font-size: 10px;
+        font-size: 8px;
         padding: 5px 15px;
-        margin-top: 15px;
+        margin:0;
         display: grid;
         grid-column: 1/3;
+        align-self: end;
     }
 
 }

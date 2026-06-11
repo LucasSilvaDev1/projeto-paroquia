@@ -1,0 +1,42 @@
+
+
+@media (max-width:1200){
+
+}
+@media (max-width:880){
+    .corpo-texto p {
+        font-size: 20px;
+    }   
+    .corpo-texto img {
+        width: 200px;
+        height: 250px;
+    }
+}
+@media (max-width:720px){
+
+    .corpo-texto{
+        padding: 12px;
+    }
+    .corpo-texto img {
+        width: 170px;
+        height: 190px;
+    }
+    .corpo-texto p {
+        font-size: 16px;
+    }
+}
+@media (max-width:490px){
+    .conteudo-h-paroquia{
+        margin: 0;
+    }
+    .corpo-texto{
+        padding: 8px;
+    }
+    .corpo-texto img {
+        width: 100px;
+        height: 115px;
+    }
+    .corpo-texto p {
+        font-size: 12px;
+    }
+}
