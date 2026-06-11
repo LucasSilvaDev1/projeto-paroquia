@@ -1,9 +1,21 @@
 
 
-@media (max-width:1200){
+@media (max-width:1200px){
+    .sugestao {
+    font-size: 3vw;
+    margin-bottom: 60px;   
+}
+.s-onofre a, .s-antonio a {
+    font-size: 2vw;
+    width: 220px;
+}
+.s-onofre img, .s-antonio img{
+    width: 240px;
+    height: 300px;
+}
 
 }
-@media (max-width:880){
+@media (max-width:880px){
     .corpo-texto p {
         font-size: 20px;
     }   
@@ -11,6 +23,20 @@
         width: 200px;
         height: 250px;
     }
+
+    .sugestao {
+    font-size: 4vw;
+    margin-bottom: 40px;   
+}
+
+.s-onofre a, .s-antonio a {
+    font-size: 3vw;
+    width: 170px;
+}
+.s-onofre img, .s-antonio img{
+    width: 200px;
+    height: 250px;
+}
 }
 @media (max-width:720px){
 
@@ -24,7 +50,17 @@
     .corpo-texto p {
         font-size: 18px;
     }
+
 }
+.s-onofre a, .s-antonio a {
+    width: 160px;
+}
+.s-onofre img, .s-antonio img{
+    width: 180px;
+    height: 200px;
+}
+
+
 @media (max-width:490px){
     .conteudo-h-paroquia{
         margin: 0;
@@ -39,4 +75,17 @@
     .corpo-texto p {
         font-size: 14px;
     }
+
+    .sugestao {
+    font-size: 4vw;  
+}
+
+.s-onofre a, .s-antonio a {
+    width: 120px;
+}
+.s-onofre img, .s-antonio img{
+    width: 140px;
+    height: 155px;
+}
+
 }
