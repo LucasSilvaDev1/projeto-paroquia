@@ -65,6 +65,9 @@ e*/
         height: 300px;
         font-size: 19px;
     }
+    .btn-ler-mais{
+        margin-top: 25px;
+    }
 
     /* historia de santo onofre */
 
@@ -78,6 +81,9 @@ e*/
     .texto-sa {
         height: 300px;
         font-size: 19px;
+    }
+    .texto-sa a {
+        margin-top: 50px;
     }
 
     /* nossas capelas */
