@@ -431,34 +431,19 @@ e*/
         font-size: 30px;
     }
     
-    .cap-s-a {
+    .cap-s-a, .cap-s-t {
         display: flex;
         justify-items: center;
         align-items: center;
         margin:0 20px;  
     }
-    .cap-s-t {
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        margin:0 20px;
-    }
-    .cap-s-a h2 {
+    .cap-s-a h2, .cap-s-t h2  {
         width: 180px;
         margin:0 0 8px 0;
         font-size: 18px;
     }
-    .cap-s-t h2 {
-        width: 180px;
-        margin:0 0 8px 0;
-        font-size: 18px;
-    }
-    .cap-s-a img {
+    .cap-s-a img, .cap-s-t img {
         margin:0;
-        width: 180px;
-        height: 200px; 
-    }
-    .cap-s-t img {
         width: 180px;
         height: 200px; 
     }
@@ -688,41 +673,25 @@ e*/
         font-size: 18px;
         margin-bottom: 20px;
     }
-    .cap-s-a {
+    .cap-s-a,.cap-s-t {
         display: flex;
         justify-items: center;
         align-items: center;
         margin:0 10px;  
     }
-    .cap-s-t {
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        margin:0 10px;
-    }
-    .cap-s-a h2 {
-        width: 100px;
+    .cap-s-a h2, .cap-s-t h2  {
+        width: 120px;
         margin:0 0 8px 0;
-        font-size: 12px;
+        font-size: 14px;
     }
-    .cap-s-t h2 {
-        width: 100px;
-        margin:0 0 8px 0;
-        font-size: 12px;
-    }
-    .cap-s-a img {
-        margin:0;
-        width: 100px;
-        height: 115px; 
-    }
-    .cap-s-t img {
-        width: 100px;
-        height: 115px; 
+    .cap-s-a img,.cap-s-t img {
+        width: 120px;
+        height: 135px; 
     }
     .leia-capela{
-        margin:4px 0 0;
-        width: 100px;
-        font-size: 8px;
+        margin:2px 0 0;
+        width: 120px;
+        font-size: 10px;
         height: 20px;
     }
 
@@ -854,7 +823,7 @@ e*/
     .copy {
         height: auto;
         width: auto;
-        font-size: 8px;
+        font-size: 10px;
         padding: 5px 15px;
         margin:0;
         display: grid;

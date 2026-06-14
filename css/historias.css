@@ -64,6 +64,7 @@
 .restante-do-site{
     display: flex;
     flex-direction: column;
+     background-image:linear-gradient(to bottom, #EEEEE4,#A18F7D);
 }
 
 
