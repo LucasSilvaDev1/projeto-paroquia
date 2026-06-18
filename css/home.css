@@ -184,11 +184,11 @@ nav {
     width: 490px;
     height: 340px;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to bottom, var(--cor-8)60%, var(--cor-4));
+    /* background-image: linear-gradient(to bottom, var(--cor-8)60%, var(--cor-4)); */
     color: var(--cor-1);
     font-size: 20px;
     line-height: 1.4;
-    background-color: var(--cor-8);
+    background-color: var(--cor-7);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.355)
 }
@@ -199,7 +199,7 @@ nav {
 }
 
 .btn-ler-mais {
-    background-color: #eeeee44c;
+    background-color: #dcb270a7;
    text-decoration: none;
     color: var(--cor-1);
     font-weight: bold;
@@ -276,11 +276,10 @@ nav {
     width: 560px;
     height: 380px;
     font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(to bottom, var(--cor-7)60%, var(--cor-3));
     color: var(--cor-1);
     font-size: 24px;
     line-height: 1.4;
-    background-color: var(--cor-8);
+    background-color: var(--cor-7);
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.355)
 }

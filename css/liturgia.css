@@ -1,0 +1,130 @@
+:root {
+    --cor-1: #210702;
+    --cor-2: #440E00;
+    --cor-3: #682107;
+    --cor-4: #8E3d1B;
+    --cor-5: #c76533;
+    --cor-6: #feceb1;
+    --cor-7: #fae2bb;
+    --cor-8: #ffefd6;
+}
+
+.historias-site {
+    background-image:linear-gradient(to bottom, #EEEEE4,#A18F7D);
+}
+
+#icone-liturgia{
+    text-decoration: underline 2px;
+    font-weight: 600;
+}
+
+
+.liturgia{
+    height: auto;
+    width: 100vw;
+    background-color: var(--cor-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.liturgia h1 {
+    color: var(--cor-6);
+    font-size: 4vw;
+    font-family: 'Noto Serif Display', serif;
+    font-style: italic;
+}
+
+.leituras{
+    width: 70vw;
+    height: auto;
+    background-color: var(--cor-8);
+    margin-bottom: 100px;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+/* titulo/datas etc */
+.data-titulo{
+    color: #440E00;
+    display: flex;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+    width:100%;
+}
+#dia{
+    font-size: 6vw;
+    font-weight: 500;
+    margin: 0;
+}
+.mes-ano{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6px;
+    
+}
+#mes,#ano{
+    font-size: 2.5vw;
+    margin: 0;
+    font-weight: 500;
+}
+#nome-dia{
+    font-size: 3.5vw;
+    margin: 0px 20px;
+    font-weight: 500;
+    height: 100%;
+}
+#cor-liturgia{
+    font-size: 2.5vw;
+    font-weight: 500;
+    display: grid;
+    text-align: end;
+    margin-left: auto;
+}
+
+.titulo-do-dia{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4vw;
+    font-family:'Noto Serif Display', serif;
+}
+
+/*  Leituras  */
+#pri-leitura , #salmo, #seg-leitura, #evangelho{
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: justify;
+    font-size: 24px;
+    background-color: var(--cor-7);
+    color: var(--cor-1);
+    padding: 20px;
+    border-left: solid 4px;
+    margin-bottom: 48px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.251);
+}
+#pri-leitura h3, #salmo h3, #seg-leitura h3, #evangelho h3{
+    margin: 0px 0px 20px 0px;
+    font-family: 'Noto Serif Display', serif;
+    font-style: italic;
+}
+#pri-leitura h4, #salmo h4, #seg-leitura h4, #evangelho h4 {
+    margin: 0;
+}
+
+.footer-leitura {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+.footer-leitura img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.footer-leitura p {
+    font-size: 30px;
+}
