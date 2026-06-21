@@ -1,0 +1,152 @@
+
+
+@media (max-width:1200px){
+    .sugestao {
+    font-size: 3vw;
+    margin-bottom: 60px;   
+}
+.s-onofre a, .s-antonio a {
+    font-size: 2.5vw;
+    width: 220px;
+}
+.s-onofre img, .s-antonio img{
+    width: 240px;
+    height: 300px;
+}
+
+}
+@media (max-width:880px){
+    .corpo-texto p {
+        font-size: 20px;
+    }   
+    .corpo-texto img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .sugestao {
+    font-size: 4vw;
+    margin-bottom: 40px;   
+}
+
+.s-onofre a, .s-antonio a {
+    font-size: 3vw;
+    width: 170px;
+}
+.s-onofre img, .s-antonio img{
+    width: 200px;
+    height: 250px;
+}
+}
+@media (max-width:720px){
+
+    .corpo-texto{
+        padding: 12px;
+    }
+    .corpo-texto img {
+        width: 170px;
+        height: 190px;
+    }
+    .corpo-texto p {
+        font-size: 18px;
+    }
+    .s-onofre a, .s-antonio a {
+        width: 160px;
+    }
+    .s-onofre img, .s-antonio img{
+        width: 180px;
+        height: 200px;
+    }
+
+    /* pg liturgia */
+
+    .leituras {
+        width: 80vw;
+        margin-bottom: 60px;
+    }
+
+    #dia{
+       font-size: 8vw;
+    }
+    #mes,#ano{
+        font-size: 3vw;
+    }
+    #nome-dia{
+        font-size: 4.2vw;
+    }
+    #cor-liturgia{
+        font-size: 3vw;
+    }
+
+    #titulo-do-dia{
+        font-size: 4vw;
+    }
+
+    #primeiraLeitura , #salmo, #seg-leitura, #evangelho{
+        font-size: 16px;
+        width: 65vw;
+    }
+
+    .footer-leitura img{
+        width: 50px;
+        height: 50px;
+    }
+    .footer-leitura p {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width:490px){
+    .conteudo-h-paroquia{
+        margin: 0;
+    }
+    .corpo-texto{
+        padding: 8px;
+    }
+    .corpo-texto img {
+        width: 100px;
+        height: 115px;
+    }
+    .corpo-texto p {
+        font-size: 14px;
+    }
+
+    .sugestao {
+    font-size: 4vw;
+}
+
+.s-onofre a, .s-antonio a {
+    width: 90px;
+}
+.s-onofre img, .s-antonio img{
+    width: 110px;
+    height: 115px;
+}
+
+ /* pg liturgia */
+
+    .leituras {
+        width: 80vw;
+        margin-bottom: 40px;
+    }
+
+    #nome-dia{
+        margin: 0 10px;
+    }
+    #primeiraLeitura , #salmo, #seg-leitura, #evangelho{
+        padding: 10px;
+        font-size: 14px;
+        width: 75vw;
+    }
+
+    .footer-leitura img{
+        width: 30px;
+        height: 30px;
+    }
+    .footer-leitura p {
+        font-size: 12px;
+    }
+
+}
