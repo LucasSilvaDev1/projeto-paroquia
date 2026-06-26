@@ -1,152 +1,218 @@
-
-
-@media (max-width:1200px){
-    .sugestao {
+@media (max-width: 1200px) {
+  .corpo-texto h3 {
+    font-size: 28px;
+  }
+  .sugestao {
     font-size: 3vw;
-    margin-bottom: 60px;   
-}
-.s-onofre a, .s-antonio a {
+    margin-bottom: 60px;
+  }
+  .s-onofre a,
+  .s-antonio a {
     font-size: 2.5vw;
     width: 220px;
-}
-.s-onofre img, .s-antonio img{
+  }
+  .s-onofre img,
+  .s-antonio img {
     width: 240px;
     height: 300px;
+  }
 }
-
-}
-@media (max-width:880px){
-    .corpo-texto p {
-        font-size: 20px;
-    }   
-    .corpo-texto img {
-        width: 200px;
-        height: 250px;
-    }
-
-    .sugestao {
-    font-size: 4vw;
-    margin-bottom: 40px;   
-}
-
-.s-onofre a, .s-antonio a {
-    font-size: 3vw;
-    width: 170px;
-}
-.s-onofre img, .s-antonio img{
+@media (max-width: 880px) {
+  .corpo-texto h3 {
+    font-size: 24px;
+  }
+  .corpo-texto p {
+    font-size: 20px;
+  }
+  .corpo-texto img {
     width: 200px;
     height: 250px;
-}
-}
-@media (max-width:720px){
+  }
+  .conteudo-adicional{
+    font-size: 22px;
+  }
 
-    .corpo-texto{
-        padding: 12px;
-    }
-    .corpo-texto img {
-        width: 170px;
-        height: 190px;
-    }
-    .corpo-texto p {
-        font-size: 18px;
-    }
-    .s-onofre a, .s-antonio a {
-        width: 160px;
-    }
-    .s-onofre img, .s-antonio img{
-        width: 180px;
-        height: 200px;
-    }
-
-    /* pg liturgia */
-
-    .leituras {
-        width: 80vw;
-        margin-bottom: 60px;
-    }
-
-    #dia{
-       font-size: 8vw;
-    }
-    #mes,#ano{
-        font-size: 3vw;
-    }
-    #nome-dia{
-        font-size: 4.2vw;
-    }
-    #cor-liturgia{
-        font-size: 3vw;
-    }
-
-    #titulo-do-dia{
-        font-size: 4vw;
-    }
-
-    #primeiraLeitura , #salmo, #seg-leitura, #evangelho{
-        font-size: 16px;
-        width: 65vw;
-    }
-
-    .footer-leitura img{
-        width: 50px;
-        height: 50px;
-    }
-    .footer-leitura p {
-        font-size: 20px;
-    }
-}
-
-
-
-@media (max-width:490px){
-    .conteudo-h-paroquia{
-        margin: 0;
-    }
-    .corpo-texto{
-        padding: 8px;
-    }
-    .corpo-texto img {
-        width: 100px;
-        height: 115px;
-    }
-    .corpo-texto p {
-        font-size: 14px;
-    }
-
-    .sugestao {
+  .sugestao {
     font-size: 4vw;
+    margin-bottom: 40px;
+  }
+
+  .s-onofre a,
+  .s-antonio a {
+    font-size: 3vw;
+    width: 170px;
+  }
+  .s-onofre img,
+  .s-antonio img {
+    width: 200px;
+    height: 250px;
+  }
+  .footer-historia img {
+    width: 60px;
+    height: 60px;
+  }
+  .footer-historia p {
+    font-size: 18px;
+  }
+
+  .footer-leitura img {
+    width: 50px;
+    height: 50px;
+  }
+  .footer-leitura p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 720px) {
+  .corpo-texto {
+    padding: 12px;
+  }
+  .corpo-texto img {
+    width: 170px;
+    height: 190px;
+  }
+  .corpo-texto p {
+    font-size: 18px;
+  }
+  .conteudo-adicional{
+    font-size: 20px;
+    flex-direction: column;
+  }
+  .conteudo-adicional > .ad1{
+    width: auto;
+  }
+  .conteudo-adicional > .separador-2{
+    display: none;
+  }
+  .s-onofre a,
+  .s-antonio a {
+    width: 160px;
+  }
+  .s-onofre img,
+  .s-antonio img {
+    width: 180px;
+    height: 200px;
+  }
+  .footer-historia img {
+    width: 50px;
+    height: 50px;
+  }
+  .footer-historia p {
+    font-size: 16px;
+  }
+
+  /* pg liturgia */
+
+  .leituras {
+    width: 80vw;
+    margin-bottom: 60px;
+  }
+
+  #dia {
+    font-size: 8vw;
+  }
+  #mes,
+  #ano {
+    font-size: 3vw;
+  }
+  #nome-dia {
+    font-size: 4.2vw;
+  }
+  #cor-liturgia {
+    font-size: 3vw;
+  }
+
+  #titulo-do-dia {
+    font-size: 4vw;
+  }
+
+  #primeiraLeitura,
+  #salmo,
+  #segundaleitura,
+  #evangelho {
+    font-size: 16px;
+    width: 65vw;
+  }
+
+  .footer-leitura img {
+    width: 50px;
+    height: 50px;
+  }
+  .footer-leitura p {
+    font-size: 16px;
+  }
 }
 
-.s-onofre a, .s-antonio a {
+@media (max-width: 490px) {
+  .conteudo-h-paroquia {
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  .corpo-texto {
+    padding: 8px;
+  }
+  .corpo-texto img {
+    width: 100px;
+    height: 115px;
+  }
+  .corpo-texto p {
+    font-size: 14px;
+  }
+  .conteudo-adicional{
+    font-size: 16px;
+    margin-top: 12px;
+  }
+   .conteudo-adicional > .separador-2{
+    display: none;
+  }
+
+  .sugestao {
+    font-size: 4vw;
+  }
+
+  .s-onofre a,
+  .s-antonio a {
     width: 90px;
-}
-.s-onofre img, .s-antonio img{
+  }
+  .s-onofre img,
+  .s-antonio img {
     width: 110px;
     height: 115px;
-}
+  }
+  .footer-historia img {
+    width: 40px;
+    height: 40px;
+  }
+  .footer-historia p {
+    font-size: 14px;
+  }
 
- /* pg liturgia */
+  /* pg liturgia */
 
-    .leituras {
-        width: 80vw;
-        margin-bottom: 40px;
-    }
+  .leituras {
+    width: 80vw;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
 
-    #nome-dia{
-        margin: 0 10px;
-    }
-    #primeiraLeitura , #salmo, #seg-leitura, #evangelho{
-        padding: 10px;
-        font-size: 14px;
-        width: 75vw;
-    }
+  #nome-dia {
+    margin: 0 10px;
+  }
+  #primeiraLeitura,
+  #salmo,
+  #segundaleitura,
+  #evangelho {
+    padding: 10px;
+    font-size: 14px;
+    width: 75vw;
+    margin: 0px 0px 24px 0px;
+  }
 
-    .footer-leitura img{
-        width: 30px;
-        height: 30px;
-    }
-    .footer-leitura p {
-        font-size: 12px;
-    }
-
+  .footer-leitura img {
+    width: 40px;
+    height: 40px;
+  }
+  .footer-leitura p {
+    font-size: 14px;
+  }
 }

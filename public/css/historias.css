@@ -40,6 +40,7 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.295);
+  text-align: justify;
 }
 .corpo-texto img {
   float: left;
@@ -55,6 +56,30 @@
   font-size: 24px;
   margin: 0;
   text-indent: 1em;
+}
+.corpo-texto h3 {
+  text-align: center;
+  font-size: 32px;
+}
+.corpo-texto > .separador {
+  margin-top: 32px;
+}
+.conteudo-adicional{
+  margin-top: 32px;
+  display: flex;
+  justify-items: center;
+  width: 100%;
+  font-size: 26px;
+}
+.conteudo-adicional > .ad1 {
+  width: 35vw;
+}
+.conteudo-adicional > .separador-2{
+  width: 4px;
+  height: auto;
+}
+.padroeiro {
+  width: auto;
 }
 .restante-do-site {
   display: flex;
@@ -96,4 +121,15 @@
 .s-antonio img {
   width: 280px;
   height: 340px;
+}
+.footer-historia{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin-top: 32px;
+}
+.footer-historia img {
+  max-width: 70px;
+  max-height: 70px;
+  box-shadow: none;
 }

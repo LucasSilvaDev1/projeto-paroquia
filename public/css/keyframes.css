@@ -1,0 +1,45 @@
+:root {
+  --cor-1: #210702;
+  --cor-2: #440e00;
+  --cor-3: #682107;
+  --cor-4: #8e3d1b;
+  --cor-5: #c76533;
+  --cor-6: #feceb1;
+  --cor-7: #fae2bb;
+  --cor-8: #ffefd6;
+}
+
+.img-introducao {
+    animation: slide-right 0.5s ease-out forwards;
+}
+.historia-pa img{
+    animation: slide-right 1s ease-out forwards;
+}
+.texto-h-p{
+    animation: slide-left 1s ease-out forwards;
+}
+.leituras{
+    animation: slide-right 0.5s ease-out forwards;
+}
+#primeiraLeitura{
+    animation: slide-left 0.8s ease-out forwards;
+}
+
+@keyframes slide-right {
+    from {
+        transform: translateX(-20%);
+        opacity: 0;
+    } to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slide-left {
+    from {
+        transform: translateX(20%);
+        opacity: 0;
+    } to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
