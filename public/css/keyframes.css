@@ -9,8 +9,9 @@
   --cor-8: #ffefd6;
 }
 
+/* pag inicial */
 .img-introducao {
-    animation: slide-right 0.5s ease-out forwards;
+    animation: slide-right 0.8s ease-out forwards;
 }
 .historia-pa img{
     animation: slide-right 1s ease-out forwards;
@@ -24,6 +25,19 @@
 #primeiraLeitura{
     animation: slide-left 0.8s ease-out forwards;
 }
+
+/* historia da paroquia */
+.conteudo-h-paroquia > h1{
+    animation: slide-bottom 0.5s linear forwards;
+}
+.corpo-texto img {
+    animation: slide-right 1s ease-out forwards;
+}
+.corpo-texto p{
+     animation: slide-left 0.8s ease-out forwards;
+}
+
+
 
 @keyframes slide-right {
     from {
@@ -40,6 +54,16 @@
         opacity: 0;
     } to {
         transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-bottom {
+    from {
+        transform: translateY(-30%);
+        opacity: 0;
+    } to {
+        transform: translateY(0);
         opacity: 1;
     }
 }
