@@ -18,7 +18,6 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  z-index: 0;
 }
 
 /* corpo de texto da historia da paroquia */
@@ -26,6 +25,7 @@ body {
 .conteudo-h-paroquia {
   background-color: var(--cor-2);
   padding: 40px 0px 80px 0px;
+  width: 100%;
 }
 .conteudo-h-paroquia h1 {
   text-align: center;
