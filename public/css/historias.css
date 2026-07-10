@@ -15,6 +15,11 @@
   --cor-7: #fae2bb;
   --cor-8: #ffefd6;
 }
+body {
+  box-sizing: border-box;
+  margin: 0;
+  z-index: 0;
+}
 
 /* corpo de texto da historia da paroquia */
 
