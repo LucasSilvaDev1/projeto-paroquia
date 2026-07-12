@@ -29,6 +29,9 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-self: center;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 .logotipo {
@@ -107,8 +110,8 @@ nav {
 }
 
 .img-introducao {
-  width: 980px;
-  height: 370px;
+  width: 80vw;
+  height: 53vh;
   background-image: url("../img/foto-intro.jpg");
   background-size: cover;
   background-position: left;
@@ -120,7 +123,11 @@ nav {
 }
 
 .img-introducao h1 {
-  color: var(--cor-6);
+  position: absolute;
+  background-color: #21070259;
+  border-radius: 5px;
+  padding: 6px 8px;
+  color: var(--cor-8);
   font-family: "Noto Serif Display", serif;
   font-style: italic;
   font-weight: bolder;
