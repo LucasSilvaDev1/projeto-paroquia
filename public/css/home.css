@@ -53,8 +53,11 @@ nav {
 
 .texto-menu-icon {
   margin-left: 10px;
-
   height: 75px;
+}
+.texto-menu-icon:hover{
+  border-bottom: solid 2px var(--cor-6);
+  transition: linear 0.2s;
 }
 
 .navegacao {
@@ -83,7 +86,16 @@ nav {
   flex-direction: row;
   align-items: center;
 }
-
+.icon-liturgia:hover {
+  text-decoration: underline 2px;
+  font-weight: 600;
+  transition: linear 0.2s;
+}
+.icon-diocese:hover{
+    text-decoration: underline 2px;
+  font-weight: 600;
+  transition: linear 0.2s;
+}
 /*      introdução do site   */
 
 .introducao-site {
@@ -204,7 +216,7 @@ nav {
   text-decoration: none;
   color: var(--cor-1);
   font-weight: bold;
-  
+
   text-decoration: underline;
   font-family: "Noto Serif Display", serif;
   font-style: italic;
@@ -217,6 +229,13 @@ nav {
   border-radius: 5px;
   border: 2px solid var(--cor-1);
   padding: 0px 25px;
+}
+
+.btn-ler-mais:hover{
+  transform: scale(1.04);
+  transition: linear 0.2s;
+  background-color: #b18a4ba7;
+  border: 2px solid var(--cor-2);
 }
 
 .btn-ler-mais:hover {
