@@ -20,20 +20,34 @@
     <header>
       <nav>
         <div class="logotipo">
-          <a href="index.html" class="img-menu-icon" title="voltar para pagina principal"> </a>
+          <a
+            href="index.html"
+            class="img-menu-icon"
+            title="voltar para pagina principal"
+          >
+          </a>
           <a href="index.html">
             <img
               class="texto-menu-icon"
               src="img/icones/nome-svg.svg"
-              title="voltar para pagina principal" alt="icone/nome do site"
+              title="voltar para pagina principal"
+              alt="icone/nome do site"
             />
           </a>
         </div>
         <div class="navegacao">
-          <a href="pgs/liturgia.html" title="Ler a liturgia do dia." class="icon-liturgia"
+          <a
+            href="pgs/liturgia.html"
+            title="Ler a liturgia do dia."
+            class="icon-liturgia"
             ><img src="img/icones/liturgia.svg" />Liturgia</a
           >
-          <a href="https://diocesedepatospb.org.br/" target="_blank" class="icon-diocese">Diocese</a>
+          <a
+            href="https://diocesedepatospb.org.br/"
+            target="_blank"
+            class="icon-diocese"
+            >Diocese</a
+          >
         </div>
       </nav>
       <section class="introducao-site">
@@ -44,6 +58,17 @@
       </section>
     </header>
     <main>
+      <section class="informacoes">
+        <div class="btns-seletores">
+          <button id="bt-artig" class="btn-seletor" onclick="ativarbtnSeletor(id)">ARTIGOS</button>
+          <button id="bt-hora" class="btn-seletor" onclick="ativarbtnSeletor(id)">HORÁRIOS</button> 
+          <button id="bt-pasto" class="btn-seletor" onclick="ativarbtnSeletor(id)">PASTORAIS</button>
+        </div>
+
+        <section id="container-info">
+
+        </section>
+      </section>
       <section class="conteudo-historico">
         <section class="historia-pa">
           <div class="titulo-h-p">
@@ -52,7 +77,11 @@
           <div class="conteudo-h-p">
             <div class="texto-h-p">
               <p>
-                <img src="img/img-paroquia-h.jpg" alt="Foto da Igreja de Santo Onofre" title="Foto da Igreja de Santo Onofre"/>
+                <img
+                  src="img/img-paroquia-h.jpg"
+                  alt="Foto da Igreja de Santo Onofre"
+                  title="Foto da Igreja de Santo Onofre"
+                />
                 A história da Paróquia de Santo Onofre, em Junco do Seridó, na
                 Paraíba, está profundamente entrelaçada com a formação do
                 próprio município. Tudo teve início na Fazenda "Unha de Gato",
@@ -61,7 +90,11 @@
                 inicialmente conhecido como "Chorão", derivou seu nome da fonte
                 de água doce chamada "Mela Bico", onde a ...
               </p>
-              <a class="btn-ler-mais" href="pgs/h-paroquia.html" title="Ler mais sobre a historia acima">
+              <a
+                class="btn-ler-mais"
+                href="pgs/h-paroquia.html"
+                title="Ler mais sobre a historia acima"
+              >
                 Continuar lendo...
               </a>
             </div>
@@ -77,11 +110,28 @@
           <div class="conteudo-sa">
             <div class="texto-sa">
               <p>
-                 <img src="img/img-s-onofre.jpg" title="icone de Santo Onofre" alt="icone de Santo Onofre" />
-                Onofre foi um eremita que viveu no Egito no final do século IV e início do século V. Ele foi encontrado por um abade chamado Pafúncio. Acostumado a fazer visitas a alguns eremitas na região de Tebaida, esse abade empreendeu sua peregrinação a fim de descobrir se também seria chamado a vivê-la. Pafúncio perambulou no deserto durante 21 dias, quando, totalmente exausto e sem forças, caiu ao chão. Nesse instante, viu aparecer uma figura que o fez estremecer: era um homem idoso, de cabelos e barbas que desciam até o chão...
+                <img
+                  src="img/img-s-onofre.jpg"
+                  title="icone de Santo Onofre"
+                  alt="icone de Santo Onofre"
+                />
+                Onofre foi um eremita que viveu no Egito no final do século IV e
+                início do século V. Ele foi encontrado por um abade chamado
+                Pafúncio. Acostumado a fazer visitas a alguns eremitas na região
+                de Tebaida, esse abade empreendeu sua peregrinação a fim de
+                descobrir se também seria chamado a vivê-la. Pafúncio perambulou
+                no deserto durante 21 dias, quando, totalmente exausto e sem
+                forças, caiu ao chão. Nesse instante, viu aparecer uma figura
+                que o fez estremecer: era um homem idoso, de cabelos e barbas
+                que desciam até o chão...
               </p>
-               <a class="btn-ler-mais" href="pgs/h-s-onofre.html" title="Ler mais sobre a historia acima">
-                  Continuar lendo...</a>
+              <a
+                class="btn-ler-mais"
+                href="pgs/h-s-onofre.html"
+                title="Ler mais sobre a historia acima"
+              >
+                Continuar lendo...</a
+              >
             </div>
           </div>
         </section>
@@ -95,12 +145,14 @@
           <div class="conteudo-cap">
             <div class="cap-s-a">
               <h2>Santo Antônio</h2>
-              <img title="Foto da Capela de Santo Antônio"
+              <img
+                title="Foto da Capela de Santo Antônio"
                 src="img/capela-s-antonio.jpg"
                 alt="capela de Santo Antônio"
               />
               <button
-                class="leia-capela" title="Ler Sobre a Capela e o respectivo padroeiro"
+                class="leia-capela"
+                title="Ler Sobre a Capela e o respectivo padroeiro"
                 onclick="window.location = 'pgs/h-s-antonio.html'"
               >
                 Leia sobre a capela ➔
@@ -109,11 +161,13 @@
             <div class="cap-s-t">
               <h2>São Tarcísio</h2>
               <img
-                src="img/capela-s-tarcisio.jpg" title="Foto da Capela de São Tarcísio"
+                src="img/capela-s-tarcisio.jpg"
+                title="Foto da Capela de São Tarcísio"
                 alt="capela de Santo Antônio"
               />
               <button
-                class="leia-capela" title="Ler Sobre a Capela e o respectivo padroeiro"
+                class="leia-capela"
+                title="Ler Sobre a Capela e o respectivo padroeiro"
                 onclick="window.location = 'pgs/h-s-tarcisio.html'"
               >
                 Leia sobre a capela ➔
@@ -139,8 +193,12 @@
                 Universidade Lateranense (Institutum Patristicum Augustinianum)
                 e em Letras Clássicas pelo Instituto Vivarum Novum.
               </p>
-              <a href="https://www.instagram.com/padrefabiodeabreulima/
-              " target="_blank">@padrefabiodeabreulima</a>
+              <a
+                href="https://www.instagram.com/padrefabiodeabreulima/
+              "
+                target="_blank"
+                >@padrefabiodeabreulima</a
+              >
             </div>
             <div class="img-paroco">
               <img
@@ -159,7 +217,9 @@
             <h2>Nossa Diocese</h2>
           </div>
           <div class="conteudo-diocese">
-            <a href="https://diocesedepatospb.org.br/" target="_blank">-Confira o portal da Diocese de Patos-</a>
+            <a href="https://diocesedepatospb.org.br/" target="_blank"
+              >-Confira o portal da Diocese de Patos-</a
+            >
             <img src="img/img-diocese.jpg" alt="" class="img-diocese" />
           </div>
         </section>
@@ -185,10 +245,14 @@
           <a href="https://www.instagram.com/pascomsantoonofre" target="_blank"
             ><img src="img/icones/instagram-white.svg" alt="icone do instagram"
           /></a>
-          <a href="https://www.facebook.com/pascomsantoonofre?mibextid=ZbWKwL" target="_blank"
+          <a
+            href="https://www.facebook.com/pascomsantoonofre?mibextid=ZbWKwL"
+            target="_blank"
             ><img src="img/icones/facebook-white.svg" alt="icone do facebook"
           /></a>
-          <a href="https://www.youtube.com/channel/UC-YDiPWwOUZNxt4tzN-bkKg" target="_blank"
+          <a
+            href="https://www.youtube.com/channel/UC-YDiPWwOUZNxt4tzN-bkKg"
+            target="_blank"
             ><img src="img/icones/youtube-white.svg" alt="icone do youtube"
           /></a>
         </div>
@@ -205,16 +269,35 @@
       <div class="sites-indicados">
         <p>SITES INDICADOS</p>
         <div class="icons-sites">
- <a target="_blank" href="https://diocesedepatospb.org.br/" title="Diocese de Patos"><img src="img/icones/Rectangle 52.jpg" alt="" /></a>
-          <a target="_blank" href="https://www.vaticannews.va/pt.html" title="Vaticannews"><img src="img/icones/Rectangle 53.jpg" alt="" /></a>
-          <a target="_blank" href="https://www.vatican.va/content/vatican/pt.html" title="Vatican"><img src="img/icones/Rectangle 54.jpg" alt="" /></a>
-          <a target="_blank" href="https://www.cnbb.org.br/" title="CNBB"><img src="img/icones/Rectangle 55.jpg" alt="" /></a>
+          <a
+            target="_blank"
+            href="https://diocesedepatospb.org.br/"
+            title="Diocese de Patos"
+            ><img src="img/icones/Rectangle 52.jpg" alt=""
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.vaticannews.va/pt.html"
+            title="Vaticannews"
+            ><img src="img/icones/Rectangle 53.jpg" alt=""
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.vatican.va/content/vatican/pt.html"
+            title="Vatican"
+            ><img src="img/icones/Rectangle 54.jpg" alt=""
+          /></a>
+          <a target="_blank" href="https://www.cnbb.org.br/" title="CNBB"
+            ><img src="img/icones/Rectangle 55.jpg" alt=""
+          /></a>
         </div>
       </div>
       <div class="copy">
         © Todos os direitos reservados - Política de Privacidade - 2026
       </div>
     </footer>
+    <script src="js/informações.js"></script>
     <script src="js/animações.js"></script>
+    
   </body>
 </html>
