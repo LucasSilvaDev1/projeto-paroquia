@@ -48,6 +48,20 @@ e*/
     width: 235px;
   }
 
+  /* Informações  */
+
+  /* pastorais */
+  .pastoral{
+    width: 160px;
+  }
+  .pastoral > img {
+    width: 156px;
+  }
+  .pastoral > h1 {
+    font-size: 18px;
+  }
+
+
   /* historia da paroquia */
 
   .titulo-h-p h2 {
@@ -180,6 +194,7 @@ e*/
   /* introducao */
   .imgbackground {
     height: 324px;
+    width: 60%;
   }
   .introducao-site {
     height: 324px;
@@ -193,9 +208,113 @@ e*/
     width: 200px;
   }
 
+   /* informações */
+  #container-info{
+    width: auto;
+  }
+
+  /* Seleção da informação exibida */
+
+  .btns-seletores{
+    padding: 15px 0px;
+    margin: 0px;
+  }
+  .btn-seletor{
+    width: 30%;
+    font-size: 18px;
+  }
+
+  /* Artigos */
+  .artigos{
+    grid-template-columns: 50% 50%;
+    width: 390px;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .artigo{
+    width: 180px;
+  }
+  .tituloArt{
+    height: 70px;
+    padding: 5px;
+  }
+  .tituloArt > h1 {
+    font-size: 15px;
+  }
+  .tituloArt > p {
+    font-size: 14px;
+  }
+
+  /* horarios */
+  .horarios{
+    margin: 0 auto;
+    width: 73%;
+    padding: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 200px 50px;
+  }
+  .btns-dias {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    grid-row: 1/2;
+    overflow-y: scroll;
+    height: 50px;
+  }
+  .btn-dia{
+    font-size: 18px;
+    height: 40px;
+    padding: 8px 14px;
+    margin: 2px;
+  }
+  .hora-turno{
+    grid-row: 2/3;
+  }
+  .hora-turno > div {
+    padding: 5px;
+  }
+  .hora-turno > div > h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .hora-turno > div > p {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .obs {
+    margin-top: 10px;
+     height: 40px;
+  }
+  .obs > p {
+    font-size: 12px; 
+  }
+
+  /* pastorais */
+  .pastorais > h1 {
+    font-size: 18px;
+  }
+  .pastoral{
+    width: 180px;
+  }
+  .pastoral > img {
+    width: 177px;
+  }
+  .pastoral > h1 {
+    font-size: 15px;
+  }
+  .section-pastoral {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+
+
+
   /* historia da paroquia */
   .titulo-h-p h2 {
     font-size: 40px;
+    margin-top: 15px;
   }
   .texto-h-p img {
     width: 200px;
@@ -372,6 +491,123 @@ e*/
     width: 350px;
     height: 230px;
   }
+
+   /* informações */
+  #container-info{
+    width: auto;
+  }
+
+  /* Seleção da informação exibida */
+  .btns-seletores{
+    height: 25px;
+    padding-bottom: 10px;
+  }
+  .btn-seletor{
+    font-size: 10px;
+    height: 25px;
+    border: 1px solid var(--cor-1);
+  }
+
+  /* Artigos */
+  .artigos{
+    grid-template-columns: 50% 50%;
+    width: 80vw;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-y: scroll;
+  }
+  .artigo{
+    width: 140px;
+    margin:4px;
+  }
+  .tituloArt{
+    height: 55px;
+    padding: 5px;
+  }
+  .tituloArt > h1 {
+    font-size: 12px;
+  }
+  .tituloArt > p {
+    font-size: 10px;
+  }
+
+  .btn-MaisArtigos{
+    font-size: 10px;
+    width: 80px;
+    height: 20px;
+    border: 1px solid var(--cor-1);
+  }
+
+  /* horarios */
+  .horarios{
+    margin: 0 auto;
+    width: 73%;
+    padding: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 200px 50px;
+  }
+  .btns-dias {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    grid-row: 1/2;
+    overflow-y: scroll;
+    height: 50px;
+  }
+  .btn-dia{
+    font-size: 18px;
+    height: 40px;
+    padding: 8px 14px;
+    margin: 2px;
+  }
+  .hora-turno{
+    grid-row: 2/3;
+  }
+  .hora-turno > div {
+    padding: 5px;
+  }
+  .hora-turno > div > h1 {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .hora-turno > div > p {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .obs {
+    margin-top: 10px;
+     height: 40px;
+  }
+  .obs > p {
+    font-size: 12px; 
+  }
+
+  /* pastorais */
+  .pastorais > h1 {
+    font-size: 18px;
+  }
+  .pastoral{
+    width: 170px;
+  }
+  .pastoral > img {
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 157px;
+    height: 170px;
+    background-size: contain;
+  }
+  .pastoral > h1 {
+    font-size: 15px;
+  }
+  .section-pastoral {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+
 
   /* historia da paroquia */
   .titulo-h-p h2 {
@@ -592,6 +828,151 @@ e*/
     width: 210px;
     height: 190px;
     background-size: 120%;
+  }
+
+    /* informações */
+  #container-info{
+    width: 100%;
+  }
+
+  /* Seleção da informação exibida */
+  .btns-seletores{
+    height: 30px;
+    padding-bottom: 10px;
+  }
+  .btn-seletor{
+    font-size: 10px;
+    height: 25px;
+    border: 1px solid var(--cor-1);
+  }
+  .btn-ativo{
+    height: 30px;
+  }
+
+  /* Artigos */
+  .artigos{
+    grid-template-columns: 50% 50%;
+    width: 75%;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-y: scroll;
+    border: 1px solid var(--cor-1);
+  }
+  .artigo{
+    width: 140px;
+    margin:4px;
+    border: 1px solid var(--cor-1);
+  }
+  .tituloArt{
+    height: 55px;
+    padding: 5px;
+  }
+  .tituloArt > h1 {
+    font-size: 12px;
+  }
+  .tituloArt > p {
+    font-size: 10px;
+  }
+
+  .btn-MaisArtigos{
+    font-size: 10px;
+    width: 80px;
+    height: 20px;
+    border: 1px solid var(--cor-1);
+    margin-right: 11%;
+  }
+
+  /* horarios */
+  .horarios{
+    margin: 0 auto;
+    width: 73%;
+    padding: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 150px 50px;
+    border: 1px solid var(--cor-1);
+  }
+  .btns-dias {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    grid-row: 1/2;
+    overflow-y: scroll;
+    height: 35px;
+  }
+  .btn-dia{
+    font-size: 12px;
+    height: 25px;
+    padding: 0px 10px;
+    margin: 2px;
+    border: 1px solid var(--cor-1);
+  }
+  .hora-turno{
+    grid-row: 2/3;
+    border: none;
+  }
+  .hora-turno > div {
+    padding: 5px;
+    border: 01px solid var(--cor-1);
+  }
+  .hora-turno > div > h1 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .hora-turno > div > p {
+    font-size: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  .obs {
+    margin-top: 10px;
+     height: 40px;
+  }
+  .obs > p {
+    font-size: 10px; 
+  }
+
+  /* pastorais */
+
+  .pastorais {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid var(--cor-1);
+  }
+  .section-pastoral{
+    overflow-y: scroll;
+  }
+  .pastorais > h1 {
+    font-size: 12px;
+  }
+  .pastoral{
+    width: 108px;
+    border: 1px solid var(--cor-1);
+    margin-bottom: 10px;
+  }
+  .pastoral > img {
+    width: 107px;
+    height: 115px;
+    margin-top: 0;
+    border: 1px solid var(--cor-1);
+  }
+  .pastoral > h1 {
+    font-size: 10px;
+  }
+  .section-pastoral {
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .verPastorais{
+    font-size: 10px;
+    width: 70px;
+    height: 20px;
+    margin-right: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--cor-1);
   }
 
   /* historia da paroquia */
