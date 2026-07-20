@@ -844,9 +844,11 @@ e*/
     font-size: 10px;
     height: 25px;
     border: 1px solid var(--cor-1);
+    font-weight: 400;
   }
   .btn-ativo{
     height: 30px;
+    font-weight: 600;
   }
 
   /* Artigos */

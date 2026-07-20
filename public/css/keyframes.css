@@ -19,7 +19,15 @@
 .animar1{
     animation: slide-top 0.5s linear forwards;
 }
-
+.artigos{
+    animation: slide-top 0.3s ease-in-out forwards;
+}
+.horarios{
+    animation: slide-top 0.3s ease-in-out forwards;
+}
+.pastorais{
+    animation: slide-top 0.3s ease-in-out forwards;
+}
 /* historia da paroquia */
 .conteudo-h-paroquia > h1{
     animation: slide-bottom 0.5s linear forwards;
@@ -31,7 +39,7 @@
 
 @keyframes slide-top {
     from {
-        transform: translateY(30%);
+        transform: translateY(10%);
         opacity: 0.5;
     } to {
         transform: translateY(0);
